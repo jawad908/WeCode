@@ -1,0 +1,92 @@
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  overflow-x: hidden;
+
+}
+
+a {
+  color: black;
+  text-decoration: none;;
+}
+
+.buton {
+  background-color: #ff713d;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  border: 0px;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.nav-link {
+  background-color: #3E38A6;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+  margin: 6px;
+}
+
+.nav-link:hover {
+  background-color: #34308b;
+  transition: 0.3s ease;
+}
+
+.bton {
+  background-color: #ff713d;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.bton:hover {
+  background-color: #ff713d;
+}
+
+.carousel-item {
+  transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.logoImg {
+  max-height: 50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 10px;  
+  background-color: #535353;
+border:1px solid rgba(51, 52, 74, 0.447) ;  padding: 8px;
+}
+
+.abouthero {
+  background-image: url('images/Artboard\ 12.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Ensures text is visible */
+}
+.bg-customcolor{
+  background-color: #04044e;
+}
+.bi{
+  color:#ffffff;
+}
+.bg1{
+background-color: #04044e;
+}
+.contacthero {
+  background-image: url('images/Artboard\ 14.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Ensures text is visible */
+}
